@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Roboto:wght@400;500;700;900&display=swap');
+
+
 body{
     background: url(img/background1.png);
     background-repeat: no-repeat;
     background-color: #13111c;
     background-size: cover;
-    
+    font-family: 'Days One', sans-serif;
 }
 
 a{
@@ -36,6 +39,8 @@ a{
 
 .logo a{
     color: #32bd83;
+    font-size: x-large;
+    font-weight: 700;
 }
 
 .logo{
@@ -53,6 +58,7 @@ nav ul li a {
     border: none;
     border-radius: 35px;
     cursor: pointer;
+    font-family: 'Days One', sans-serif;
 }
 
 .btn2{
@@ -62,6 +68,7 @@ nav ul li a {
     border: none;
     border-radius: 35px;
     cursor: pointer;
+    font-family: 'Days One', sans-serif;
 }
 
 .btn1:hover{
@@ -74,4 +81,45 @@ nav ul li a {
 
 .main-container{
     margin-top: 35px;
+}
+
+#hero{
+    margin-right: 100px;
+    margin-top: 133px;
+    text-align: right;
+    color: white;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 20;
+    padding-bottom: 30px;
+}
+
+#hero p{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 400;
+}
+#hero h1 span {
+    color: #2AE9DE;
+}
+
+.btn3{
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: #159957;
+    border: none;
+    font-family: 'Days one', sans-serif;
+    padding: 0 15px;
+}
+
+.container{
+    background-image: url(img/simpson\ wallpaper.jpg);
+    margin-top: 419px;
+    color: white;
 }
