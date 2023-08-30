@@ -127,13 +127,31 @@ nav ul li a {
     background: #106f40 ;
 }
 
+.btn4 {
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: #159957;
+    border: none;
+    font-family: 'Days one', sans-serif;
+    padding: 0 15px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 71px;
+}
+
+.btn4:hover{
+    background: #106f40 ;
+}
+
 /* About Us Section */
 .container {
     background-color: #00151D;
     background-image: url(img/bg2.png);
     background-size: cover;
     width: auto;
-    height: 1124px;
+    height: auto;
     color: white;
 }
 
@@ -184,6 +202,7 @@ nav ul li a {
 .bigcrew{
     display: flex;
     gap: 70px;
+    margin-right: 145px;
 }
 
 .crew img{
@@ -227,4 +246,23 @@ nav ul li a {
 
 .info svg:hover{
     fill: rgb(201, 104, 201);
+}
+
+.bigcareer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bigcareer p {
+    max-width: 900px;
+    text-align: center;
+    font-size: 32px;
+    color: #34E89E;
+    margin-bottom: 527px;
+}
+
+.klik{
+    margin-bottom: 62px;
 }
